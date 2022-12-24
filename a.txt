@@ -1,0 +1,5 @@
+clear screen -> ctrl + L
+stop any running stuff -> ctrl + c
+remove word by word -> ctrl + w
+
+part 10:
