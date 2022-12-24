@@ -1,5 +1,14 @@
 clear screen -> ctrl + L
 stop any running stuff -> ctrl + c
 remove word by word -> ctrl + w
+manual for a command -> man [command] -> man cat
+print result of a command for example echo hello > a.txt
 
 part 10:
+using / you can search for a keyword in less result. to go next search result press n and shift n or just b for go back.
+cat prints a file on screen. but less is like a app for viewing a file and search in it.
+tac prints a file in reversed lines.
+head and tail is like cat but prints 10 first and last lines of files.
+
+
+
