@@ -31,7 +31,19 @@ cyan: link
 green: u can run executables in them
 
 
-
+part 9:
+whereis [command] -> locate the binary, source, and manual page of files for a command
+bin and sbin directory is where standard command of linux are located.
+bin commands is on every linux. but sbin commands is added by that specific distro.
+dev dir is for devices
+etc dir is for configuration files.
+proc dir is for running processes
+home dir is home for non root users
+root dir is home dir for only root user
+in linux everything is file. even dirs and processes.
+file [path] -> shows file type from its content (not by its extension!)
+copy: select text to copy or press ctrl+shift+c
+paste: press mouse middle button or ctrl+shift+v
 
 
 part 10:
@@ -39,6 +51,5 @@ using / you can search for a keyword in less result. to go next search result pr
 cat prints a file on screen. but less is like a app for viewing a file and search in it.
 tac prints a file in reversed lines.
 head and tail is like cat but prints 10 first and last lines of files.
-
-
+tail -f -> follows changes to the file and shows them.
 
