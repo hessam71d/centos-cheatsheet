@@ -1,8 +1,38 @@
-clear screen -> ctrl + L
 stop any running stuff -> ctrl + c
 remove word by word -> ctrl + w
-manual for a command -> man [command] -> man cat
 print result of a command for example echo hello > a.txt
+
+
+part 7:
+[username]@[host name or computer name][where u are now ~][# or $]
+~ is for user home directory
+$ non root user
+# root user
+manual for a command -> man [command] -> man cat
+
+
+part 8:
+ls: list files and dirs
+ls options:
+      -l -> list files and dirs
+      -l -h or ls -lh -> human readable sizes for list of files and dirs. h option comes with l and doesn't work without l option
+      -a -> to see hidden file. (files starting with .)
+      -r -> reverse order
+      -t -> sort by date
+cd: change directory
+double tap to complete commands
+pwd: print working dir
+clear screen -> ctrl + L
+cd . -> go where u were before
+cd .. -> go back one level up
+white: file
+blue: dir
+cyan: link
+green: u can run executables in them
+
+
+
+
 
 part 10:
 using / you can search for a keyword in less result. to go next search result press n and shift n or just b for go back.
