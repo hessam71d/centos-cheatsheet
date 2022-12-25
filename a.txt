@@ -1,6 +1,11 @@
 stop any running stuff -> ctrl + c
 remove word by word -> ctrl + w
 print result of a command for example echo hello > a.txt
+touch [file name] makes a empty file with current timestamp. or u can use it to change file timestamp.
+rm -fr -> remove files or dirs and their contents. without asking a question. 
+rm -r -> like above but asks for every file
+mkdir -> make directory
+
 
 
 part 7:
@@ -52,4 +57,40 @@ cat prints a file on screen. but less is like a app for viewing a file and searc
 tac prints a file in reversed lines.
 head and tail is like cat but prints 10 first and last lines of files.
 tail -f -> follows changes to the file and shows them.
+
+part 11:
+regex usages:
+rm -fr * -> remove anything from current dir
+ls /etc/*li* -> lists anything containing li in their name from /etc/ dir
+ls /etc/*conf -> lists anything ending with conf in their name from /etc/ dir
+      ? -> any character but not empty
+      {1..100}
+      {a..z} -> touch {a..z}.txt
+cut -> when u have a file containing lines with patterns like a table u can split each column with it
+
+      one usefull option of cut is -d:
+            cut -d [delimiter] -f[column number] [file]
+
+      for example if this is our file:
+            1/2/3
+            4/5/6
+            7/8/9
+      cut -d / -f2 a.txt
+      will return:
+            2
+            5
+            8
+      and cut -d / -f2- a.txt
+      will return:
+            2/3
+            5/6
+            8/9
+grep is better than cut!
+
+
+part 12:
+
+
+
+
 
