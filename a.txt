@@ -19,7 +19,7 @@ ls options:
       -a -> to see hidden file. (files starting with .)
       -r -> reverse order
       -t -> sort by date
-cd: change directory
+cd: change directory (cd with no options brings u to home dir)
 double tap to complete commands
 pwd: print working dir
 clear screen -> ctrl + L
