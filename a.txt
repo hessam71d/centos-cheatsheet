@@ -5,6 +5,7 @@ touch [file name] makes a empty file with current timestamp. or u can use it to 
 rm -fr -> remove files or dirs and their contents. without asking a question. 
 rm -r -> like above but asks for every file
 mkdir -> make directory
+mv -> move file or dir or just rename them!
 
 
 
